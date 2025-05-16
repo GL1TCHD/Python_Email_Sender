@@ -33,8 +33,6 @@ Download the latest release from the `dist/` folder or run the installer if prov
 5. Click "Send Emails" to start sending.
 6. Check `email_log.txt` for logs.
 
-## Screenshots
-![screenShot]("C:\Users\omen\OneDrive\الصور\لقطات الشاشة\emailsender.png")
 
 ## Build (for Developers)
 
