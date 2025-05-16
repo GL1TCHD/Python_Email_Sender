@@ -28,25 +28,13 @@ Download the latest release from the `dist/` folder or run the installer if prov
 
 1. Open the app.
 2. Enter your email and app password.
-3. Choose input method (Excel or manual).
-4. Write a subject and body. You can use `{name}` in the body for personalization.
-5. Upload your CV (PDF).
-6. Click "Preview" to verify email format.
-7. Click "Send Emails" to start sending.
-8. Check `email_log.txt` for logs.
-
-## Excel Format
-
-If using Excel, make sure the file format is:
-
-| Name       | Email              |
-|------------|--------------------|
-| John Smith | john@example.com   |
-| Jane Doe   | jane@example.com   |
+3. Upload your CV (PDF).
+4. Click "Preview" to verify email format.
+5. Click "Send Emails" to start sending.
+6. Check `email_log.txt` for logs.
 
 ## Screenshots
-
-> Include screenshots here after you run the app.
+![screenShot]("C:\Users\omen\OneDrive\الصور\لقطات الشاشة\emailsender.png")
 
 ## Build (for Developers)
 
@@ -62,4 +50,4 @@ Output will be in the dist/ folder
 MIT License. See [LICENSE]() file.
 
 ## Contributing
-Pull requests are welcome! See [CONTRIBUTING.md]for details.
+Pull requests are welcome! See [CONTRIBUTING.md]() for details.
