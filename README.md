@@ -1,0 +1,65 @@
+# CV Email Sender
+
+A simple desktop application built with Python that helps you send your CV (PDF) to a list of HR managers' email addresses automatically. You can paste emails manually. It also supports delays to prevent spam filters, logs successful/failed sends, and shows real-time progress.
+
+## Features
+
+- Import emails from Excel or manually paste
+- Personalize each email using `{name}` placeholder
+- Attach your PDF CV to all emails
+- Automatically log all successful and failed sends
+- Delay between each email to avoid spam filters
+- GUI preview before sending
+- Live progress bar
+- Packaged as a Windows `.exe` (no Python required)
+
+## Requirements (for development)
+
+- Python 3.8+
+- `openpyxl`
+- `tkinter` (comes with standard Python)
+- `PyInstaller` (for building the .exe)
+
+## Installation (for Users)
+
+Download the latest release from the `dist/` folder or run the installer if provided.
+
+## Usage
+
+1. Open the app.
+2. Enter your email and app password.
+3. Choose input method (Excel or manual).
+4. Write a subject and body. You can use `{name}` in the body for personalization.
+5. Upload your CV (PDF).
+6. Click "Preview" to verify email format.
+7. Click "Send Emails" to start sending.
+8. Check `email_log.txt` for logs.
+
+## Excel Format
+
+If using Excel, make sure the file format is:
+
+| Name       | Email              |
+|------------|--------------------|
+| John Smith | john@example.com   |
+| Jane Doe   | jane@example.com   |
+
+## Screenshots
+
+> Include screenshots here after you run the app.
+
+## Build (for Developers)
+
+To package the app as `.exe`:
+
+```bash
+pip install pyinstaller
+pyinstaller --onefile --windowed cv_sender.py
+```
+Output will be in the dist/ folder
+
+## License
+MIT License. See [LICENSE]() file.
+
+## Contributing
+Pull requests are welcome! See [CONTRIBUTING.md]for details.
