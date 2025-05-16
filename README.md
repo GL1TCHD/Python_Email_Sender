@@ -48,4 +48,4 @@ Output will be in the dist/ folder
 MIT License. See [LICENSE]() file.
 
 ## Contributing
-Pull requests are welcome! See [CONTRIBUTING.md]() for details.
+Pull requests are welcome! See [CONTRIBUTING.md](https://github.com/GL1TCHD/Python_Email_Sender/blob/master/CONTRIBUTING.md) for details.
