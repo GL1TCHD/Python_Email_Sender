@@ -43,7 +43,7 @@ pyinstaller --onefile --windowed cv_sender.py
 Output will be in the dist/ folder
 
 ## License
-MIT License. See [LICENSE]() file.
+MIT License. See [LICENSE](https://github.com/GL1TCHD/Python_Email_Sender/blob/master/LICENSE) file.
 
 ## Contributing
 Pull requests are welcome! See [CONTRIBUTING.md](https://github.com/GL1TCHD/Python_Email_Sender/blob/master/CONTRIBUTING.md) for details.
