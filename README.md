@@ -38,7 +38,7 @@ To package the app as `.exe`:
 
 ```bash
 pip install pyinstaller
-pyinstaller --onefile --windowed cv_sender.py
+pyinstaller --onefile --windowed index.py
 ```
 Output will be in the dist/ folder
 
